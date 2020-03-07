@@ -1,0 +1,166 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+    background: #f1f1f1;
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+  
+  h2 {
+      font-style: Georgia;
+      border: 20px;
+      align: center;
+      background-color: cadetblue;
+      padding: 5px;
+  }
+  h3 {
+    font-size: 30px;
+    align: center;
+  }
+
+  h4 {
+    font-style: Georgia;
+    font-size 24px;
+    font-weight: bold;
+    color: cadetblue;
+  }
+
+  h5 {
+    font-style: Georgia;
+    font-size 24px;
+    font-weight: bold;
+    color: cadetblue;
+  }
+   .clearfix::after {
+     content: " ";
+     display: block;
+     clear: both;
+   }
+  
+  /* Giving our navbar some padding and a background color */
+  .navbar {
+    padding: 10px;
+    background: #4e6181;
+    
+  }
+  
+  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+  .navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+  }
+  
+  /* Getting rid of the default link styles here */
+  .navbar li a {
+    color: black;
+    text-decoration: none;
+  }
+
+ 
+  
+  /* Styling the header, giving it a height, a background color, and some top padding */
+  .header {
+    height: 200px;
+    padding-top: 20px;
+    background: #cdcdcd;
+  }
+  
+  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+  .header h1 {
+    padding: 60px;
+    margin: 0;
+    color: #000;
+    text-align: center;
+  }
+  
+  /* Giving the .post element margin on 3 sides */
+  .post {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+  .main_content {
+    float: left;
+  }
+
+  /* .sidebar {
+    float: right;
+    box-sizing: content-box;
+    padding: 50px;
+    border: 20px;
+    background-color: white;
+    margin: 50px;
+  } */
+
+  .container {
+    background-color: white;
+    margin: 2rem;
+    padding: 5px;
+  }
+
+#navigation_container {
+  margin: 30px
+}
+
+.data_container{
+  background-color: white;
+  margin: 100px;
+  padding: 50px;
+}
+
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.col-sm {
+  
+}
+
+.img-container {
+  margin:10px;
+  padding: 50px;
+
+}
+
+.sidebar {
+  float: right;
+  box-sizing: content-box;
+  padding: 30px;
+  border: 20px;
+  background-color: white;
+  margin: 35px;
+}
+.img-sidebar {
+
+  width: 150px; /* Set a small width */
+
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
