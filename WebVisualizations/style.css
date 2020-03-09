@@ -37,6 +37,12 @@ body {
      display: block;
      clear: both;
    }
+
+   .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
   
   /* Giving our navbar some padding and a background color */
   .navbar {
@@ -88,6 +94,9 @@ body {
   
   .main_content {
     float: left;
+    background-color: white;
+    width: 60%;
+    align: justify;
   }
 
   /* .sidebar {
@@ -163,4 +172,12 @@ body {
 /* Add a hover effect (blue shadow) */
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.side-align {
+  position: absolute;
+  left: 60%;
+  margin: 100px;
+  top: 0px;
+  z-index: -1;
 }
